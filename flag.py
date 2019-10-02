@@ -1,3 +1,4 @@
+# Флаг
 import pygame
 
 # инициализация Pygame:
@@ -11,11 +12,11 @@ screen.fill(pygame.Color('gray'))
 # команды рисования на холсте
 # Рисуем древко
 screen.fill(pygame.Color('brown'), pygame.Rect(10, 10, 15, 580))
-#Белый
+# Белый
 screen.fill(pygame.Color('white'), pygame.Rect(25, 10, 675, 150))
-#Синий
+# Синий
 screen.fill(pygame.Color('blue'), pygame.Rect(25, 160, 675, 150))
-#Красный
+# Красный
 screen.fill(pygame.Color('red'), pygame.Rect(25, 310, 675, 150))
 # смена (отрисовка) кадра:
 pygame.display.flip()
