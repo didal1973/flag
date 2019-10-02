@@ -11,6 +11,8 @@ screen.fill(pygame.Color('gray'))
 # команды рисования на холсте
 # Рисуем древко
 screen.fill(pygame.Color('brown'), pygame.Rect(10, 10, 15, 580))
+#Синий
+screen.fill(pygame.Color('blue'), pygame.Rect(25, 160, 675, 150))
 # смена (отрисовка) кадра:
 pygame.display.flip()
 # ожидание закрытия окна:
