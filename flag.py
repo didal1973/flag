@@ -1,6 +1,5 @@
 import pygame
 
-
 # инициализация Pygame:
 pygame.init()
 # размеры окна:
@@ -14,6 +13,8 @@ screen.fill(pygame.Color('gray'))
 screen.fill(pygame.Color('brown'), pygame.Rect(10, 10, 15, 580))
 #Белый
 screen.fill(pygame.Color('white'), pygame.Rect(25, 10, 675, 150))
+#Синий
+screen.fill(pygame.Color('blue'), pygame.Rect(25, 160, 675, 150))
 # смена (отрисовка) кадра:
 pygame.display.flip()
 # ожидание закрытия окна:
